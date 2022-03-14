@@ -10,14 +10,14 @@
 * ![Screenshot-FailInfo](./img/FailInfo.png)
 
 ## Spec
-* Test java.util.PriorityQueue class with Junit.
+* **Test java.util.PriorityQueue class with Junit**
     * import java.util.PriorityQueue;
-* Parameterization
+* **Parameterization**
     * Testcase : { random array } , { correct array }.
     * Random array specifies your own input array.
     * Correct array means the PriorityQueue polling correct order instead of using toArray().
-    * There are 5 unique testcases.
-* Exception
+    * Please Create 5 unique testcases.
+* **Exception**
     * There are 3 unique Exceptions thrown by PriorityQueue.
         1. IllegalArgumentException
             * whenExceptionThrown_thenInitialCapacityNotGreaterThanOne()
