@@ -20,11 +20,11 @@
 * **Exception**
     * There are 3 unique Exceptions thrown by PriorityQueue.
         1. IllegalArgumentException
-            * whenExceptionThrown_thenInitialCapacityNotGreaterThanOne()
+            * ```whenExceptionThrown_thenInitialCapacityNotGreaterThanOne()```
         2. NullPointerException
-            * whenExceptionThrown_thenOfferEisNull()
+            * ```whenExceptionThrown_thenOfferEisNull()```
         3. ClassCastException
-            * whenExceptionThrown_thenCastWrongType()
+            * ```whenExceptionThrown_thenCastWrongType()```
             * Success case : 
                 * ```
                    Exception exception = assertThrows(ClassCastException.class, () -> {
